@@ -1,0 +1,162 @@
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.w3-grid-template {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+@media screen and (max-width: 1000px) {
+  .w3-grid-template {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+  }
+  .resimg {
+      width: 70%;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .w3-grid-template {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .resimg {
+      width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .w3-grid-template {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .resimg {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .w3-grid-template {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .resimg {
+      width: 100%;
+  }
+}
+
+
+ * {
+  box-sizing: border-box;
+}
+  
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+  
+  .row {margin: 0 -5px;}
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+
+
+h5{
+  color:rgb(41, 155, 193);
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 7px 7px;
+  width: 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 4px;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+  
